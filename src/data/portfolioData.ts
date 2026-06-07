@@ -1,4 +1,5 @@
 import { Project, EducationItem, SkillItem, AchievementItem, ServiceInterestItem } from '../types';
+import profilePhoto from '../assets/images/regenerated_image_1780810045095.jpg';
 
 export const personalInfo = {
   name: 'Pratibha Singh',
@@ -8,7 +9,7 @@ export const personalInfo = {
   email: 'pratibhasingh742006@gmail.com',
   linkedin: 'https://www.linkedin.com/in/pratibha-singh-18b7b628b',
   github: 'https://github.com', // fallback profile link
-  bioUrl: '/src/assets/images/regenerated_image_1780810045095.jpg',
+  bioUrl: profilePhoto,
   bio: 'I am currently pursuing a Bachelor of Technology in Computer Science Engineering from Shri Ramswaroop Memorial College of Engineering and Management (SRMCEM), Lucknow. I have a strong interest in software development, programming, and web technologies. I enjoy solving problems, learning new skills, and working on projects that help me gain practical experience. My goal is to become a professional Software Engineer and contribute to innovative technology solutions.',
   typingTexts: [
     'Passionate about Software Development',
